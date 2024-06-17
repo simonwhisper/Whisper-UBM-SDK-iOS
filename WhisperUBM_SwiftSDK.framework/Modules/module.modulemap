@@ -1,0 +1,11 @@
+framework module WhisperUBM_SwiftSDK {
+  umbrella header "WhisperUBM_SwiftSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module WhisperUBM_SwiftSDK.Swift {
+  header "WhisperUBM_SwiftSDK-Swift.h"
+  requires objc
+}
