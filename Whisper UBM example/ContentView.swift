@@ -103,7 +103,7 @@ struct OnOffButton: View {
             action()
         } label: {
             ZStack(alignment: Alignment(horizontal: .center, vertical: .center)){
-                Text(on ? "on" : "off")
+                Text(on ? "Listening, Tap to switch off." : "Not listening, Tap to switch on.")
                     .foregroundStyle(.black)
                     .padding(20)
             }
