@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DD0421AD2C175D1C007A5626 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0421AC2C175D1C007A5626 /* ViewModel.swift */; };
-		DD3A84412C592FB60088F533 /* WhisperUBM_SwiftSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3A843F2C592FB30088F533 /* WhisperUBM_SwiftSDK.framework */; };
-		DD3A84422C592FB60088F533 /* WhisperUBM_SwiftSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD3A843F2C592FB30088F533 /* WhisperUBM_SwiftSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD3A84462C5932820088F533 /* WhisperUBM_SwiftSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3A84442C5932770088F533 /* WhisperUBM_SwiftSDK.framework */; };
+		DD3A84472C5932820088F533 /* WhisperUBM_SwiftSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD3A84442C5932770088F533 /* WhisperUBM_SwiftSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DD4AD4DF2C172B8500055965 /* Whisper_UBM_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4AD4DE2C172B8500055965 /* Whisper_UBM_exampleApp.swift */; };
 		DD4AD4E12C172B8500055965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4AD4E02C172B8500055965 /* ContentView.swift */; };
 		DD4AD4E32C172B8700055965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4AD4E22C172B8700055965 /* Assets.xcassets */; };
@@ -17,13 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DD3A84432C592FB70088F533 /* Embed Frameworks */ = {
+		DD3A84482C5932820088F533 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DD3A84422C592FB60088F533 /* WhisperUBM_SwiftSDK.framework in Embed Frameworks */,
+				DD3A84472C5932820088F533 /* WhisperUBM_SwiftSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		DD0421AC2C175D1C007A5626 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		DD3A843F2C592FB30088F533 /* WhisperUBM_SwiftSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WhisperUBM_SwiftSDK.framework; path = "../../../Library/Developer/Xcode/DerivedData/WhisperUBM-SwiftSDK-fafbwabkllowbcgcehzrymjfhqoa/Build/Products/Release-iphoneos/WhisperUBM_SwiftSDK.framework"; sourceTree = "<group>"; };
+		DD3A84442C5932770088F533 /* WhisperUBM_SwiftSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WhisperUBM_SwiftSDK.framework; sourceTree = "<group>"; };
 		DD4AD4DB2C172B8500055965 /* Whisper UBM example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whisper UBM example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4AD4DE2C172B8500055965 /* Whisper_UBM_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whisper_UBM_exampleApp.swift; sourceTree = "<group>"; };
 		DD4AD4E02C172B8500055965 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD3A84412C592FB60088F533 /* WhisperUBM_SwiftSDK.framework in Frameworks */,
+				DD3A84462C5932820088F533 /* WhisperUBM_SwiftSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 		DD4AD5752C1739EA00055965 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD3A843F2C592FB30088F533 /* WhisperUBM_SwiftSDK.framework */,
+				DD3A84442C5932770088F533 /* WhisperUBM_SwiftSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 				DD4AD4D72C172B8500055965 /* Sources */,
 				DD4AD4D82C172B8500055965 /* Frameworks */,
 				DD4AD4D92C172B8500055965 /* Resources */,
-				DD3A84432C592FB70088F533 /* Embed Frameworks */,
+				DD3A84482C5932820088F533 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
