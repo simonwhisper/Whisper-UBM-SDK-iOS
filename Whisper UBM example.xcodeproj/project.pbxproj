@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		DD0421AD2C175D1C007A5626 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0421AC2C175D1C007A5626 /* ViewModel.swift */; };
+		DD3A842E2C5913880088F533 /* WhisperUBM_SwiftSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3A842C2C5913640088F533 /* WhisperUBM_SwiftSDK.framework */; };
+		DD3A842F2C5913880088F533 /* WhisperUBM_SwiftSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD3A842C2C5913640088F533 /* WhisperUBM_SwiftSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DD4AD4DF2C172B8500055965 /* Whisper_UBM_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4AD4DE2C172B8500055965 /* Whisper_UBM_exampleApp.swift */; };
 		DD4AD4E12C172B8500055965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4AD4E02C172B8500055965 /* ContentView.swift */; };
 		DD4AD4E32C172B8700055965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4AD4E22C172B8700055965 /* Assets.xcassets */; };
 		DD4AD4E62C172B8700055965 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4AD4E52C172B8700055965 /* Preview Assets.xcassets */; };
-		DDE9A2FE2C203AA8005732F6 /* WhisperUBM_SwiftSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE9A2FD2C203AA8005732F6 /* WhisperUBM_SwiftSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DD4AD5382C17337C00055965 /* Embed Frameworks */ = {
+		DD3A84302C5913880088F533 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				DD3A842F2C5913880088F533 /* WhisperUBM_SwiftSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,13 +32,13 @@
 
 /* Begin PBXFileReference section */
 		DD0421AC2C175D1C007A5626 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DD3A842C2C5913640088F533 /* WhisperUBM_SwiftSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WhisperUBM_SwiftSDK.framework; sourceTree = "<group>"; };
 		DD4AD4DB2C172B8500055965 /* Whisper UBM example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whisper UBM example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4AD4DE2C172B8500055965 /* Whisper_UBM_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whisper_UBM_exampleApp.swift; sourceTree = "<group>"; };
 		DD4AD4E02C172B8500055965 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD4AD4E22C172B8700055965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD4AD4E52C172B8700055965 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD4AD5332C17336400055965 /* Whisper-UBM-example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Whisper-UBM-example-Info.plist"; sourceTree = SOURCE_ROOT; };
-		DDE9A2FD2C203AA8005732F6 /* WhisperUBM_SwiftSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WhisperUBM_SwiftSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE9A2FE2C203AA8005732F6 /* WhisperUBM_SwiftSDK.framework in Frameworks */,
+				DD3A842E2C5913880088F533 /* WhisperUBM_SwiftSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +94,7 @@
 		DD4AD5752C1739EA00055965 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DDE9A2FD2C203AA8005732F6 /* WhisperUBM_SwiftSDK.framework */,
+				DD3A842C2C5913640088F533 /* WhisperUBM_SwiftSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,7 +109,7 @@
 				DD4AD4D72C172B8500055965 /* Sources */,
 				DD4AD4D82C172B8500055965 /* Frameworks */,
 				DD4AD4D92C172B8500055965 /* Resources */,
-				DD4AD5382C17337C00055965 /* Embed Frameworks */,
+				DD3A84302C5913880088F533 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,7 +305,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Whisper UBM example/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = Y9LK2G82DV;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -342,7 +344,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Whisper UBM example/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = Y9LK2G82DV;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (

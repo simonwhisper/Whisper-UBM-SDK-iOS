@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/WhisperUBM_SwiftSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		wEc1aLN0YzBKTrvatW4jcffi1Wc=
+		o5umwX9jgW0tjRTl1azvEcjfI+A=
 		</data>
 		<key>Modules/WhisperUBM_SwiftSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/WhisperUBM_SwiftSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		WgEgeMSmXr6Kj/9yOkDvVz8zYNw=
+		F2Eck32qHtjRc7XNO5umPsxxr+0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8PkgvTL8ga7cjBXqqXJ/lDvE/vFNiSEE0Cp4DNpgIQ0=
+			PSOrcrOxJ4DuRYH5pm1CQODc0yvKeAL7JAAYJEW7Gp4=
 			</data>
 		</dict>
 		<key>Modules/WhisperUBM_SwiftSDK.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yRADy1mKuUpw1N96gZT+s743S8OHWRQVYTuGKee8b8Q=
+			Klj/htdAHROAg967PQ7vkRmrzeB0kk5G2FtS+OgLcIM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

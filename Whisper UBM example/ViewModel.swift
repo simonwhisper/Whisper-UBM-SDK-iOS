@@ -13,26 +13,29 @@ import UIKit
 import ActivityKit
 import WhisperUBM_SwiftSDK
 
-//TODO: assure onResume callback works along with the on in notifServ
 class ViewModel: ObservableObject{
     @Published var permission = false
     @Published var permissionDenied = false
     @Published var listening = false
     @Published var messages: [String] = []
-    @Published var hash = "b40c8619283d79e73163abef4daeb9e138bba1a7dd2c552c32be48acc71cd5be"
-    @Published var prefix = "b_00008_"
+    @Published var hash = ""
+    @Published var prefix = ""
     @Published var whisper: WhisperUBM?
     
     var micTimeouter: DispatchSourceTimer = DispatchSource.makeTimerSource(queue: DispatchQueue.main)
     
     init(){
         getPermissionStatus()
+        self.prefix = UserDefaults.standard.string(forKey: "prefix") ?? ""
+        self.hash = UserDefaults.standard.string(forKey: "hash") ?? ""
     }
     
     func whisperInit(){
         do{
             self.whisper = try WhisperUBM(prefix: self.prefix, hash: self.hash)
-            self.whisper?.setMainCallBack(callback: self.ubmRecived)
+            self.whisper?.setCallBack(callback: self.ubmRecived)
+            UserDefaults.standard.set(prefix, forKey: "prefix")
+            UserDefaults.standard.set(hash, forKey: "hash")
         }catch{
             print("bad hash/prefix input")
             AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))

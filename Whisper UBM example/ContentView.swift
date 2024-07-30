@@ -69,12 +69,12 @@ struct TextInputs: View {
                 Text((viewModel.permission == true) ? "granted" : "denied")
             }
             HStack{
-                Text("HASH:")
-                TextField("hash", text: $viewModel.hash).disabled(viewModel.listening)
+                Text("HASH:").foregroundStyle(.white)
+                TextField("", text: $viewModel.hash).disabled(viewModel.listening).background(.gray)
             }
             HStack{
-                Text("PREFIX:")
-                TextField("prefix", text: $viewModel.prefix).disabled(viewModel.listening)
+                Text("PREFIX:").foregroundStyle(.white)
+                TextField("", text: $viewModel.prefix).disabled(viewModel.listening).background(.gray)
             }
             Button{
                 viewModel.whisperInit()
